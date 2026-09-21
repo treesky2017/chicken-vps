@@ -1,4 +1,4 @@
-让探针小鸡具象化到3D网页养鸡场，支持大多数的ServerStatus、哪吒 （V1）、Komari、极简探针、NodeGet、
+让探针里的小鸡具象化到3D网页养鸡场，支持大多数的ServerStatus、哪吒 （V1）、Komari、极简探针、NodeGet、
 NodeFlare、CF探针里的小鸡到养鸡场。
 
 #一键安装：
