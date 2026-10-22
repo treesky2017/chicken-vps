@@ -1,3 +1,4 @@
+ 10.22日，因nodejs漏洞，已安装的最好更新一下：
 ```
 # 停止服务
 sudo systemctl stop chicken-vps
