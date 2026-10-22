@@ -1,12 +1,12 @@
 10.22日，因nodejs漏洞，已安装的最好更新一下：
 
-# 停止服务
+停止服务
 sudo systemctl stop chicken-vps
-# 删除旧版私有 Node 运行时
+删除旧版私有 Node 运行时
 sudo rm -f /opt/chicken-vps/vendor/node
-# 重新执行安装脚本（会自动从官方拉取最新的 v22.23.4 安全版本）
+重新执行安装脚本（会自动从官方拉取最新的 v22.23.4 安全版本）
 sudo bash /opt/chicken-vps/install.sh --yes
-# 检查当前运行的 Node 版本是否已升级
+检查当前运行的 Node 版本是否已升级
 /opt/chicken-vps/vendor/node -v
 sudo systemctl status chicken-vps
 
